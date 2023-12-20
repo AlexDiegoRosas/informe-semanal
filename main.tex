@@ -1,0 +1,52 @@
+\documentclass[12pt]{article}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\usepackage[left=2.00cm, right=2.00cm, top=2.00cm, bottom=2.00cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{xcolor,colortbl}
+\usepackage{booktabs}
+\usepackage{ulem}
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[R]{\textbf{\scriptsize{SERVICIO NACIONAL DE ADIESTRAMIENTO EN TRABAJO INDUSTRIAL}}}
+\fancyhead[L]{\begin{picture}(0,0) \put(0,0){\includegraphics[width=20mm]{img/logo}} \end{picture}}
+\fancyfoot{}
+
+\vspace*{5cm}
+\begin{document}
+\begin{center}
+\begin{tcolorbox}[colback=white, colframe=black, arc=4mm, boxsep=5mm] % Ajusta el valor de boxsep según el padding que desees
+\centering
+    \setlength{\baselineskip}{1.5\baselineskip}
+    \textbf{\LARGE{FORMACIÓN PROFESIONAL DUAL}}
+\end{tcolorbox}
+\end{center}
+\vspace*{6cm}
+\begin{center}
+\textbf{\LARGE{$\blacktriangleright$ CUADERNO DE INFORMES $\blacktriangleleft$}}
+\end{center}
+\vspace*{5cm}
+\textbf{\large{CÓDIGO N° 89001677}}
+
+\newpage
+\input{chapters/datos}
+\newpage
+\input{chapters/instrucciones}
+\newpage
+\input{chapters/rotaciones}
+\newpage
+\input{chapters/pea}
+\input{chapters/informe}
+\newpage
+\input{chapters/tarea}
+\end{document}
